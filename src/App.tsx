@@ -1,11 +1,16 @@
-import ListGroup from './components/ListGroup.tsx';
+import Navbar from './components/layout/Navbar.tsx';
+import Sidebar from './components/layout/Sidebar.tsx';
+import MainContent from './components/layout/MainContent.tsx';
+import Footer from './components/layout/Footer.tsx';
 import './App.css';
 
 function App() {
   return (
     <>
-      <ListGroup />
-      <ListGroup />
+      <Navbar />
+      <Sidebar />
+      <MainContent />
+      <Footer />
     </>
   );
 }
